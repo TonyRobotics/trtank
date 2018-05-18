@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>trtank</name>
+  <version>0.0.1</version>
+  <description>The trtank package</description>
+
+  <maintainer email="jeff.gao@tonyrobotics.com">Jeff Gao</maintainer>
+  <author email="jeff.gao@tonyrobotics.com">Jeff Gao</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>ls01d</exec_depend>
+  <exec_depend>tank_driver</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
